@@ -10,6 +10,9 @@ TODO: Guide users through getting your code up and running on their own system. 
 
 # Build and Test
 TODO: Describe and show how to build your code and run the tests. 
+- Run the CurrencyConverter.API then use swagger for test
+- Run docker compose with this command 'docker-compose up -d' at the CurrencyConverter folder
+- Reach swagger via this url https://localhost:5001/swagger/index.html
 
 # Contribute
 TODO: Explain how other users and developers can contribute to make your code better. 
@@ -19,15 +22,15 @@ If you want to learn more about creating good readme files then refer the follow
 - [Visual Studio Code](https://github.com/Microsoft/vscode)
 - [Chakra Core](https://github.com/Microsoft/ChakraCore)
 
-# TODO
-Use nuget (azure artifacts) instead of project reference
-Implement central logging structure(you can use eventgrid for pushing Elasticsearch for endpoint)
-Add central and customized exception structure
-Add extra unit test
-Add comment to at least public class
-Add general structure explanation
-Add application insight support inside the code for monitoring
-Add azure-pipeline.yml file for CI/CD
-Add caching
-Add API authentication authorisation and throttling structure
+# TODO 
+- Implement central logging structure(you can use eventgrid for pushing Elasticsearch for endpoint)
+- Add central and customized exception structure 
+- Add extra unit test 
+- Add comment to at least public class 
+- Add general structure explanation 
+- Add application insight support inside the code for monitoring 
+- Add azure-pipeline.yml file for CI/CD 
+- Add caching 
+- Add azure key vault for secret management
+- Add API authentication authorisation and throttling structure
 

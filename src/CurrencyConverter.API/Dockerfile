@@ -7,10 +7,12 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:5.0-buster-slim AS build
 WORKDIR /src
-COPY ["CurrencyConverter.API/CurrencyConverter.API.csproj", "CurrencyConverter.API/"]
-RUN dotnet restore "CurrencyConverter.API/CurrencyConverter.API.csproj"
+COPY ["src/CurrencyConverter.API/CurrencyConverter.API.csproj", "src/CurrencyConverter.API/"]
+COPY ["src/CurrencyConverter.Application/CurrencyConverter.Application.csproj", "src/CurrencyConverter.Application/"]
+COPY ["src/CurrencyConverter.Domain/CurrencyConverter.Domain.csproj", "src/CurrencyConverter.Domain/"]
+RUN dotnet restore "src/CurrencyConverter.API/CurrencyConverter.API.csproj"
 COPY . .
-WORKDIR "/src/CurrencyConverter.API"
+WORKDIR "/src/src/CurrencyConverter.API"
 RUN dotnet build "CurrencyConverter.API.csproj" -c Release -o /app/build
 
 FROM build AS publish

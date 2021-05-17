@@ -1,0 +1,43 @@
+{
+    "status": {
+        "timestamp": "2021-05-17T16:55:55.109Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 17,
+        "credit_count": 1,
+        "notice": null
+    },
+    "data": {
+        "BTC": {
+            "id": 1,
+            "name": "Bitcoin",
+            "symbol": "BTC",
+            "slug": "bitcoin",
+            "num_market_pairs": 9544,
+            "date_added": "2013-04-28T00:00:00.000Z",
+            "tags": [ "mineable", "pow", "sha-256", "store-of-value", "state-channels", "coinbase-ventures-portfolio", "three-arrows-capital-portfolio", "polychain-capital-portfolio", "binance-labs-portfolio", "arrington-xrp-capital", "blockchain-capital-portfolio", "boostvc-portfolio", "cms-holdings-portfolio", "dcg-portfolio", "dragonfly-capital-portfolio", "electric-capital-portfolio", "fabric-ventures-portfolio", "framework-ventures", "galaxy-digital-portfolio", "huobi-capital", "alameda-research-portfolio", "a16z-portfolio", "1confirmation-portfolio", "winklevoss-capital", "usv-portfolio", "placeholder-ventures-portfolio", "pantera-capital-portfolio", "multicoin-capital-portfolio", "paradigm-xzy-screener" ],
+            "max_supply": 21000000,
+            "circulating_supply": 18712406,
+            "total_supply": 18712406,
+            "is_active": 1,
+            "platform": null,
+            "cmc_rank": 1,
+            "is_fiat": 0,
+            "last_updated": "2021-05-17T16:55:02.000Z",
+            "quote": {
+                "USD": {
+                    "price": 42858.010076588995,
+                    "volume_24h": 82204693465.17831,
+                    "percent_change_1h": -1.23320007,
+                    "percent_change_24h": -9.57653064,
+                    "percent_change_7d": -25.85934563,
+                    "percent_change_30d": -29.79470019,
+                    "percent_change_60d": -28.16598471,
+                    "percent_change_90d": -11.90566535,
+                    "market_cap": 801976484905.2244,
+                    "last_updated": "2021-05-17T16:55:02.000Z"
+                }
+            }
+        }
+    }
+}

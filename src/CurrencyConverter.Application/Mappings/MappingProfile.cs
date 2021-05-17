@@ -9,8 +9,8 @@ namespace CurrencyConverter.Application.Mappings
     {
         public MappingProfile()
         {
-            CreateMap<Currency, CurrencyPrice>().ReverseMap();
-            CreateMap<Currency, AddCoinPriceCommand>().ReverseMap();
+            CreateMap<Quote, CurrencyPrice>().ReverseMap();
+            CreateMap<Quote, AddCoinPriceCommand>().ReverseMap();
         }
     }
 }

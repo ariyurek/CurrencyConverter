@@ -17,8 +17,7 @@ namespace CurrencyConverter.Application
             services.AddMediatR(Assembly.GetExecutingAssembly());
 
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(UnhandledExceptionBehaviour<,>));
-            services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehaviour<,>));
-
+            services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehaviour<,>)); 
             services.AddScoped(typeof(IAsyncRepository<>), typeof(RepositoryBase<>));
             services.AddScoped(typeof(IQuotesRepository), typeof(QuotesRepository));
 
